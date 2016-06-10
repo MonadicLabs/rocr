@@ -1,0 +1,4 @@
+#ifndef CHARCANDIDATE_H
+#define CHARCANDIDATE_H
+
+#endif // CHARCANDIDATE_H

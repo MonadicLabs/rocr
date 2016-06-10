@@ -1,0 +1,4 @@
+#ifndef CHARDETECTOR_H
+#define CHARDETECTOR_H
+
+#endif // CHARDETECTOR_H
