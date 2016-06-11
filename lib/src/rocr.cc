@@ -1,7 +1,11 @@
 
 #include <rocr.h>
 
-std::string rocr::ReceiptOCR::test()
+#include <iostream>
+
+using namespace std;
+
+void rocr::ReceiptOCR::test()
 {
-    return "popo";
+    cout << "popo" << endl;
 }

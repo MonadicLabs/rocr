@@ -10,7 +10,7 @@ namespace rocr
         ReceiptOCR(){}
         virtual ~ReceiptOCR(){}
 
-        std::string test();
+        void test();
 
     };
 }

@@ -3,8 +3,8 @@ cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
 project(ROCR)
 
 option(BUILD_TEST "Build Unit tests" OFF)
-option(BUILD_EXAMPLES "Build Examples" OFF)
-option(BUILD_PYTHON_MODULE "Build Python module" ON)
+option(BUILD_EXAMPLES "Build Examples" ON)
+option(BUILD_PYTHON_MODULE "Build Python module" OFF)
 
 option(WITH_PROF "Enable profiling and coverage report analysis" OFF)
 
@@ -40,9 +40,9 @@ if( BUILD_TEST )
         add_subdirectory(test)
 endif( BUILD_TEST )
 
-if( BUILD_EXAMPLES )
+#if( BUILD_EXAMPLES )
         add_subdirectory( examples )
-endif( BUILD_EXAMPLES )
+#endif( BUILD_EXAMPLES )
 
 if( BUILD_PYTHON_MODULE )
     add_subdirectory( python )
