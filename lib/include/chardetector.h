@@ -16,8 +16,8 @@ public:
     CharDetector(){}
     virtual ~CharDetector(){}
 
-    virtual void setup( std::vector< rocr::Parameter > params ) =0;
-    virtual std::vector< std::shared_ptr< rocr::CharCandidate > > detect( cv::Mat img ) = 0;
+    virtual void setup( std::vector< rocr::Parameter > params ) = 0;
+    virtual std::vector< std::shared_ptr<rocr::CharCandidate> > detect( cv::Mat img ) = 0;
 
 private:
 
